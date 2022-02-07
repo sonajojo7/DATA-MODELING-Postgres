@@ -32,10 +32,14 @@ A Postgres database is to be created with tables designed to optimize queries on
 4. Once the create_tables.py is run, run test.ipynb to confirm the creation of your tables with the correct columns. Make sure to click "Restart kernel" to close the connection to the database after running this notebook.
 
 **Build ETL Processes**
-Follow instructions in the etl.ipynb notebook to develop ETL processes for each table. 
-At the end of each table section, or at the end of the notebook, run test.ipynb to confirm that records were successfully inserted into each table.
-If the running of cells in test.ipynb gives you the tables with correct column names and data, we can proced further.
-Rerun create_tables.py to reset your tables before each time you run this notebook.
+
+*Follow instructions in the etl.ipynb notebook to develop ETL processes for each table.
+
+*At the end of each table section, or at the end of the notebook, run test.ipynb to confirm that records were successfully inserted into each table.
+
+*If the running of cells in test.ipynb gives you the tables with correct column names and data, we can proced further.
+
+*Rerun create_tables.py to reset your tables before each time you run this notebook.
 
 
 # Files Provided
