@@ -30,7 +30,7 @@ song_table_create = ("""CREATE TABLE IF NOT EXISTS songs(song_id varchar(100) NO
 title varchar,
 artist_id varchar NOT NULL , 
 year int, 
-duration numeric);
+duration numeric NOT NULL);
 """)
 
 artist_table_create = ("""CREATE TABLE IF NOT EXISTS artists(artist_id varchar(100) NOT NULL PRIMARY KEY, 
@@ -41,12 +41,12 @@ longitude numeric );
 """)
 
 time_table_create = ("""CREATE TABLE IF NOT EXISTS time(start_time timestamp(9) NOT NULL PRIMARY KEY, 
-hour int,
-day int, 
-week int, 
-month int, 
-year int, 
-weekday int);
+hour int NOT NULL,
+day int NOT NULL, 
+week int NOT NULL, 
+month int NOT NULL, 
+year int NOT NULL, 
+weekday int NOT NULL);
 """)
 
 # INSERT RECORDS
