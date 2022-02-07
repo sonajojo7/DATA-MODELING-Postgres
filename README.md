@@ -33,13 +33,13 @@ A Postgres database is to be created with tables designed to optimize queries on
 
 **Build ETL Processes**
 
-*Follow instructions in the etl.ipynb notebook to develop ETL processes for each table.
+*Follow instructions in the etl.ipynb notebook to develop ETL processes for each table.*
 
-*At the end of each table section, or at the end of the notebook, run test.ipynb to confirm that records were successfully inserted into each table.
+*At the end of each table section, or at the end of the notebook, run test.ipynb to confirm that records were successfully inserted into each table.*
 
-*If the running of cells in test.ipynb gives you the tables with correct column names and data, we can proced further.
+*If the running of cells in test.ipynb gives you the tables with correct column names and data, we can proced further.*
 
-*Rerun create_tables.py to reset your tables before each time you run this notebook.
+*Rerun create_tables.py to reset your tables before each time you run this notebook.*
 
 
 # Files Provided
