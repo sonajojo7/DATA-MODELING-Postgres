@@ -22,14 +22,14 @@ user_agent varchar);
 user_table_create = ("""CREATE TABLE IF NOT EXISTS users(user_id int NOT NULL PRIMARY KEY, 
 first_name varchar,
 last_name varchar, 
-gender varchar, 
-level varchar);
+gender varchar NOT NULL, 
+level varchar NOT NULL);
 """)
 
 song_table_create = ("""CREATE TABLE IF NOT EXISTS songs(song_id varchar(100) NOT NULL PRIMARY KEY, 
 title varchar,
 artist_id varchar NOT NULL , 
-year int, 
+year int NOT NULL, 
 duration numeric NOT NULL);
 """)
 
